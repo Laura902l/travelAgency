@@ -15,6 +15,7 @@ Welcome to the Tour Management System, a web application built using Node.js and
 2. Install Dependencies:
     ```bash
     npm install method-override
+    npm install body-parser mongoose mongodb
     npm install
     ```
 
