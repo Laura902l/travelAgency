@@ -53,27 +53,7 @@ The server runs on the default port 3000. The logic for the travel agency is imp
 - **Mongoose**: Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a schema-based solution for modeling application data, allowing you to define schemas with strongly-typed data.
 - **MongoDB**: Official MongoDB driver for Node.js. Simplifies the process of interacting with MongoDB databases from Node.js applications by providing a high-level API on top of the native MongoDB driver.
 
-## Installation
 
-To install the necessary dependencies, follow these steps:
-
-### Method-Override
-
-```bash
-npm install method-override
-
-## Installation
-
-To install the necessary dependencies, follow these steps:
-
-### Method-Override
-
-```bash
-npm install method-override
-
-
-bash
-- 
 ## Enhanced UI
 
 - Additional select fields for country, hotel, date arrival, date departure, and quantity of persons (adult and children) for comprehensive Tour editing.
