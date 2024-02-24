@@ -7,6 +7,7 @@ Welcome to the Tour Management System, a web application built using Node.js and
 1. Clone the Repository:
     ```bash
     git clone https://github.com/Laura902l/Assignment3.git
+    cd Assignment3
 
 
     ```
