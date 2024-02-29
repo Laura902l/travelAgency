@@ -1,26 +1,28 @@
 # Tour Management System
 
 Welcome to the Tour Management System, a web application built using Node.js and Express.js that allows users to book, edit, delete tours, and view booking history.
-
+In this assignment, I developed a Tour Management System using Node.js and Express.js. The system allows users to book, edit, delete tours, and view booking history. It includes a MongoDB database for data storage and utilizes CRUD operations for managing tour information.
 ## Installation and Run Instructions
 
 1. Clone the Repository:
     ```bash
-    git clone https://github.com/Laura902l/assWeb2.git
-    cd assWeb2
+    git clone https://github.com/Laura902l/Assignment3.git
+    cd Assignment3
+
 
     ```
 ## Do not forget install method-override
 2. Install Dependencies:
     ```bash
     npm install method-override
+    npm install body-parser mongoose mongodb
     npm install
     ```
 
 3. Run the Application:
 
     ```bash
-    npm start
+    node server.js
     ```
 
     The application will run on http://localhost:3000.
@@ -41,21 +43,17 @@ The HTML template (`home.ejs`) uses Bootstrap for a clean and responsive design.
 
 The server runs on the default port 3000. The logic for the travel agency is implemented in the `/travelagency` route, handling GET, POST, PUT, DELETE requests. Optionally, the code is organized by separating routes into a separate file (`routes/travelRoutes.js`).
 
-## NPM Packages Integration
-
-Two NPM packages related to the project are integrated:
+## Technologies Used
 
 - **Axios**: Used for making HTTP requests to the OpenWeatherMap API for weather information.
 - **Bootstrap**: Integrated for styling and responsiveness.
-- Utilizes at least two npm packages:
-  - Axios for weather information from an API.
-- Faker for generating appropriate data.
-  - Calculates the cost of the tour and displays it.
-- Implements weather conditions of the chosen tour.
-- Includes a history feature storing recently selected tours with timestamps.
-- Creates a route to view the history of tours.
+- **Faker**: Utilized for generating appropriate data.
+- **Method-Override**: Allows you to intercept requests and override HTTP methods as needed within your project.
+- **Body-Parser**: Middleware commonly used in Node.js applications for handling HTTP request bodies. It parses JSON, raw, text, and URL encoded form data, making the parsed data available on req.body.
+- **Mongoose**: Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a schema-based solution for modeling application data, allowing you to define schemas with strongly-typed data.
+- **MongoDB**: Official MongoDB driver for Node.js. Simplifies the process of interacting with MongoDB databases from Node.js applications by providing a high-level API on top of the native MongoDB driver.
 
-- 
+
 ## Enhanced UI
 
 - Additional select fields for country, hotel, date arrival, date departure, and quantity of persons (adult and children) for comprehensive Tour editing.
@@ -70,9 +68,14 @@ Two NPM packages related to the project are integrated:
 
 Feel free to explore and enjoy the Tour Management System!
 
+<<<<<<< HEAD
 # webASS3
 # webASS3
 # Assignment-3
 # ASS1Web
 # travelAgency
+# travelAgency
+=======
+
+>>>>>>> 9688a338a791b330fa54cb225358ab6de6b7efc4
 # travelAgency
