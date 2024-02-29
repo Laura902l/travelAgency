@@ -1,9 +1,8 @@
 {
   "description": "travel-agency/ ├── public/ │   ├── styles/ │   │   └── main.css │   ├── images/ │   └── scripts/ │       └── main.js ├── routes/ │   └── travelRoutes.js ├── views/ │   ├── home.ejs │   └── about.ejs ├── server.js └── README.md # assWeb2 # assWeb2 # ASS1Web",
   "dependencies": {
-    "@vercel/node": "^3.0.20",
+    "@vercel/node": "^3.0.1",
     "axios": "^1.6.7",
-    "mongodb": "^4.0.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "date-fns": "^3.3.1",
@@ -11,10 +10,11 @@
     "express": "^4.18.2",
     "express-session": "^1.18.0",
     "express-validator": "^7.0.1",
-    "faker": "^6.6.6",
+    "faker": "^5.5.3",
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
     "method-override": "^3.0.0",
+    "mongodb": "^4.0.0",
     "mongoose": "^8.2.0",
     "openweathermap-js": "^1.0.1",
     "passport": "^0.7.0",
