@@ -27,10 +27,11 @@ app.use('/travel', travelRoutes);
 app.use('/', staticRoutes);
 app.use('/', history);
 app.use('/', login);
+module.exports = mongoose; // Экспортируем объект Mongoose
+
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
 
-module.exports = mongoose; // Экспортируем объект Mongoose
 
 
