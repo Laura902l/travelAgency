@@ -14,7 +14,6 @@ const url = 'mongodb://localhost:27017';
 // Database Name
 const dbName = 'travelAgency';
 
-// Path to history file
 const tourHistoryFilePath = path.join(__dirname, 'tourHistory.json');
 
 // Function to connect to MongoDB
