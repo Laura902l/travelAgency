@@ -1,7 +1,9 @@
 {
   "description": "travel-agency/ ├── public/ │   ├── styles/ │   │   └── main.css │   ├── images/ │   └── scripts/ │       └── main.js ├── routes/ │   └── travelRoutes.js ├── views/ │   ├── home.ejs │   └── about.ejs ├── server.js └── README.md # assWeb2 # assWeb2 # ASS1Web",
   "dependencies": {
+    "@vercel/node": "^3.0.20",
     "axios": "^1.6.7",
+    "mongodb": "^4.0.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "date-fns": "^3.3.1",
