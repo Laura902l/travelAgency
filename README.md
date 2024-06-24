@@ -68,14 +68,3 @@ The server runs on the default port 3000. The logic for the travel agency is imp
 
 Feel free to explore and enjoy the Tour Management System!
 
-<<<<<<< HEAD
-# webASS3
-# webASS3
-# Assignment-3
-# ASS1Web
-# travelAgency
-# travelAgency
-=======
-
->>>>>>> 9688a338a791b330fa54cb225358ab6de6b7efc4
-# travelAgency
